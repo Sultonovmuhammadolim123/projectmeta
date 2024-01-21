@@ -1,0 +1,28 @@
+
+.otziv {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+    &>.otziv__header {
+        width: 100%;
+        height: auto;
+        padding: 0px 90px 0px 0px;
+        display: flex;
+        justify-content: end;
+
+        &>h1 {
+            font-weight: 600;
+            font-size: 80px;
+            color:
+                #232121;
+        }
+    }
+
+    &>.otziv__alice__carusel {
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        background: url(imgs/right.png)  right top repeat-x;
+    }
+}

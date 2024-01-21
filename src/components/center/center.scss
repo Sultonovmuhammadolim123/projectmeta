@@ -1,0 +1,25 @@
+.center{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 150px 0px;
+    &>h1{
+        font-weight: 600;
+        font-size: 50px ;
+        color: black;
+    }
+    &>p{
+        font-weight: 400;
+        font-size: 20px ;
+        color: rgb(37, 36, 36);
+        margin: 50px;
+    }
+    &>button{
+        background-color: #FD3131;
+        border: none;
+        color: #fff;
+    }
+    &>button:hover{
+        background-color: #ff3e3e;
+    }
+}

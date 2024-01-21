@@ -1,0 +1,41 @@
+.otziv__card {
+  width: 290px;
+  height: 332px;
+  border-radius: 2px;
+  border: 2px solid #C72929;
+  background-color: rgba(231, 231, 231, 0.2);
+  padding: 34px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.otziv__card > .otziv__card__header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.otziv__card > .otziv__card__header > img {
+  width: 55px;
+  height: 56px;
+}
+.otziv__card > .otziv__card__header > h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #161515;
+}
+.otziv__card > .otziv__card__header > h1 > span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1F1E1E;
+}
+.otziv__card > .otziv__card__footer {
+  width: 100%;
+  height: auto;
+}
+.otziv__card > .otziv__card__footer > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #232121;
+}/*# sourceMappingURL=cards.css.map */

@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+  background: linear-gradient(to right bottom, rgba(6, 6, 6, 0.74), hsla(0, 1%, 9%, 0.13), hsla(0, 2%, 11%, 0)), url(./imgs/headback.png) no-repeat center/cover;
+  background-attachment: fixed;
+}
+.header > .header__img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+}
+.header > .header__img > img {
+  width: 521px;
+  height: 57px;
+  margin: 13px;
+}
+.header > .header__info {
+  width: 100%;
+  height: auto;
+  padding: 99px 0px 30px 0px;
+}
+.header > .header__info > h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 120px;
+  color: #F4F4F4;
+}
+.header > .header__info > h1 > span {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 50px;
+  color: #F4F4F4;
+}
+.header > .header__info > p {
+  width: 500px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+  margin: 26px 0px 44px 0px;
+}
+.header > .header__info > button {
+  background-color: #FD3131;
+  border: none;
+  border: 2px solid #FD3131;
+}
+.header > .header__info > button:hover {
+  border: 2px solid #FD3131;
+  background-color: transparent;
+  color: #FD3131;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,50 @@
+.contact {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to left, rgba(0, 0, 0, 15%), rgba(0, 0, 0, 15%)), url(./imgs/map.jpg) no-repeat center / cover;
+    display: flex;
+    justify-content: end;
+    padding: 123px 40px;
+    cursor: pointer;
+
+    &>.contatc__card:hover {
+        box-shadow: 0px 0px 10px 3px #FF0000;
+    }
+
+    &>.contatc__card {
+        max-width: 540px;
+        width: 100%;
+        height: 343px;
+        border-radius: 10px;
+        border: 2px solid #FF0000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0px 10px 30px;
+        transition: all 0.3s;
+
+        &>h1 {
+            font-weight: 700;
+            font-size: 40px;
+            color: black;
+        }
+
+        &>p {
+            font-weight: 400;
+            font-size: 18px;
+            color: #232121;
+        }
+
+        &>p:last-child {
+            font-weight: 400;
+            font-size: 16px;
+            color: #232121;
+        }
+
+        &>h4 {
+            font-weight: 400;
+            font-size: 22px;
+            color: #121111;
+        }
+    }
+}

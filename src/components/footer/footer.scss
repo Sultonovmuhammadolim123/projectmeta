@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+     background: linear-gradient(to left bottom ,rgba(6, 6, 6, 0.6) ,rgba(15, 14, 14, 0.24),rgba(23, 23, 23, 0.37),rgba(30, 29, 29, 0) ) , url(./imgs/image.png) no-repeat center / cover;
+    &>.footer__text{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 0px 0px 0px;
+    }
+}
